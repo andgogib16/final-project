@@ -1,0 +1,353 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #f1c40f;
+  }
+  footer {
+    background-color: #222;
+    text-align: center;
+    padding: 15px 0;
+    color: #888;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+  
+ 
+  .hero {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: auto;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: auto;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-text h1 {
+    font-size: 5vw;  
+    margin: 0;
+    animation: slideIn 1.5s ease-in-out;
+  }
+  
+  .hero-text p {
+    font-size: 2.5vw;  
+    margin-top: 10px;
+  }
+  footer {
+    background-color: #222;
+    text-align: center;
+    padding: 15px 0;
+    color: #888;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+  
+  
+  .about {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .about-image {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px 0;
+    animation: fadeInUp 2s ease-in-out;
+  }
+  footer {
+    background-color: #222;
+    text-align: center;
+    padding: 15px 0;
+    color: #888;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+  
+ 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #f4f4f4;
+  transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #f4d03f;
+}
+
+header img {
+  max-width: 100px;
+  height: auto;
+}
+
+
+.content {
+  padding: 20px;
+}
+
+.game-section {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.game-section h3 {
+  color: #f4d03f;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.game-section p {
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  background-color: #333;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+  color: #888;
+}
+
+  
+  .community {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .community-image {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px 0;
+    animation: fadeInUp 2s ease-in-out;
+  }
+  footer {
+    background-color: #222;
+    text-align: center;
+    padding: 15px 0;
+    color: #888;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+  
+ 
+  .login-signup {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 8px;
+  }
+  
+  .login-signup form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-signup label {
+    margin: 10px 0 5px;
+  }
+  
+  .login-signup input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #444;
+  }
+  
+  .login-signup button {
+    padding: 10px;
+    background-color: #f1c40f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .login-signup button:hover {
+    background-color: #f39c12;
+  }
+  footer {
+    background-color: #222;
+    text-align: center;
+    padding: 15px 0;
+    color: #888;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+  
+
+  @media (max-width: 768px) {
+    .hero-text h1 {
+      font-size: 4em;  
+    }
+  
+    .hero-text p {
+      font-size: 2em;  
+    }
+  
+    .games {
+      flex-direction: column;
+    }
+  
+    .game-card {
+      width: 100%;
+    }
+
+  }
+  
+  
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
